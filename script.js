@@ -96,7 +96,7 @@ contactForm.addEventListener('submit', async (e) => {
     const submitButton = contactForm.querySelector('button[type="submit"]');
     const originalButtonText = submitButton.textContent;
     submitButton.disabled = true;
-    submitButton.textContent = 'Sending...';
+    submitButton.textContent = 'Enviando...';
 
     // Simulate form submission (replace with actual API call)
     try {
@@ -104,13 +104,13 @@ contactForm.addEventListener('submit', async (e) => {
         await new Promise(resolve => setTimeout(resolve, 1500));
 
         // Show success message
-        showNotification('Message sent successfully! We\'ll get back to you soon.', 'success');
+        showNotification('¡Mensaje enviado con éxito! Te contactaremos pronto.', 'success');
 
         // Reset form
         contactForm.reset();
     } catch (error) {
         // Show error message
-        showNotification('Failed to send message. Please try again.', 'error');
+        showNotification('Error al enviar el mensaje. Por favor, intentá de nuevo.', 'error');
     } finally {
         // Re-enable submit button
         submitButton.disabled = false;
@@ -333,5 +333,5 @@ navToggle.addEventListener('click', () => {
 });
 
 // Print debug info in console
-console.log('%cAutomaticSolves Website', 'font-size: 20px; font-weight: bold; color: #6366f1;');
-console.log('%cWebsite loaded successfully! 🚀', 'font-size: 14px; color: #10b981;');
+console.log('%cSitio Web AutomaticSolves', 'font-size: 20px; font-weight: bold; color: #6366f1;');
+console.log('%c¡Sitio web cargado con éxito! 🚀', 'font-size: 14px; color: #10b981;');

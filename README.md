@@ -1,138 +1,138 @@
-# AutomaticSolves - Professional Automation Solutions Website
+# AutomaticSolves - Sitio Web Profesional de Soluciones de Automatización
 
-A modern, responsive website for AutomaticSolves - a business automation solutions provider.
+Un sitio web moderno y responsive para AutomaticSolves - proveedor de soluciones de automatización empresarial.
 
-## Features
+## Características
 
-### Design & UI
-- **Modern Design**: Clean, professional interface with gradient accents
-- **Fully Responsive**: Optimized for desktop, tablet, and mobile devices
-- **Smooth Animations**: Scroll-based animations and interactive hover effects
-- **Performance Optimized**: Fast loading with debounced scroll events
+### Diseño y UI
+- **Diseño Moderno**: Interfaz limpia y profesional con acentos degradados
+- **Totalmente Responsive**: Optimizado para desktop, tablet y móvil
+- **Animaciones Suaves**: Animaciones basadas en scroll e interacciones hover
+- **Alto Rendimiento**: Carga rápida con eventos debounced
 
-### Sections
+### Secciones
 
-1. **Hero Section**
-   - Eye-catching headline with gradient text
-   - Clear call-to-action buttons
-   - Key statistics display
-   - Animated floating cards
+1. **Hero/Inicio**
+   - Título llamativo con texto degradado
+   - Botones de llamada a la acción claros
+   - Visualización de estadísticas clave
+   - Tarjetas flotantes animadas
 
-2. **Services**
-   - 6 comprehensive service offerings
-   - Process Automation
-   - Data Integration
-   - Custom Solutions
-   - Security & Compliance
-   - Analytics & Reporting
-   - Cloud Automation
+2. **Servicios**
+   - 6 servicios completos ofrecidos
+   - Automatización de Procesos
+   - Integración de Datos
+   - Soluciones Personalizadas
+   - Seguridad y Cumplimiento
+   - Análisis e Informes
+   - Automatización en la Nube
 
-3. **Features**
-   - Highlight of 6 key differentiators
-   - Visual icon-based layout
-   - Hover effects for engagement
+3. **Características**
+   - Destacado de 6 diferenciadores clave
+   - Diseño visual basado en iconos
+   - Efectos hover para engagement
 
-4. **Pricing**
-   - 3 transparent pricing tiers
-   - Starter ($49/month)
-   - Professional ($149/month) - Featured
-   - Enterprise (Custom pricing)
+4. **Precios**
+   - 3 planes de precios transparentes
+   - Inicial ($49/mes)
+   - Profesional ($149/mes) - Destacado
+   - Empresarial (Precio personalizado)
 
-5. **Testimonials**
-   - Social proof from satisfied clients
-   - 5-star ratings
-   - Client information with avatars
+5. **Testimonios**
+   - Prueba social de clientes satisfechos
+   - Calificaciones de 5 estrellas
+   - Información de clientes con avatares
 
-6. **Contact Form**
-   - Functional contact form with validation
-   - Contact information display
-   - Success/error notifications
+6. **Formulario de Contacto**
+   - Formulario de contacto funcional con validación
+   - Visualización de información de contacto
+   - Notificaciones de éxito/error
 
 7. **Footer**
-   - Quick navigation links
-   - Social media links
-   - Company information
+   - Links de navegación rápida
+   - Links a redes sociales
+   - Información de la empresa
 
-### Technical Features
+### Características Técnicas
 
-- **Semantic HTML5**: Proper structure and accessibility
-- **CSS3 Animations**: Smooth transitions and effects
-- **Vanilla JavaScript**: No dependencies, pure JS
-- **Mobile Navigation**: Hamburger menu for mobile devices
-- **Smooth Scrolling**: Enhanced navigation experience
-- **Intersection Observer**: Efficient scroll-based animations
-- **Form Handling**: Client-side validation and submission
-- **Active Navigation**: Highlights current section in navbar
-- **Parallax Effects**: Subtle depth effects on scroll
+- **HTML5 Semántico**: Estructura apropiada y accesibilidad
+- **Animaciones CSS3**: Transiciones y efectos suaves
+- **JavaScript Vanilla**: Sin dependencias, JS puro
+- **Navegación Móvil**: Menú hamburguesa para dispositivos móviles
+- **Scroll Suave**: Experiencia de navegación mejorada
+- **Intersection Observer**: Animaciones eficientes basadas en scroll
+- **Manejo de Formularios**: Validación y envío del lado del cliente
+- **Navegación Activa**: Resalta la sección actual en el navbar
+- **Efectos Parallax**: Efectos sutiles de profundidad en scroll
 
-## Browser Support
+## Compatibilidad de Navegadores
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
+- Chrome (última versión)
+- Firefox (última versión)
+- Safari (última versión)
+- Edge (última versión)
+- Navegadores móviles (iOS Safari, Chrome Mobile)
 
-## File Structure
+## Estructura de Archivos
 
 ```
 /
-├── index.html          # Main HTML file
-├── styles.css          # All CSS styles
-├── script.js           # JavaScript functionality
-└── README.md           # This file
+├── index.html          # Archivo HTML principal
+├── styles.css          # Todos los estilos CSS
+├── script.js           # Funcionalidad JavaScript
+└── README.md           # Este archivo
 ```
 
-## Customization
+## Personalización
 
-### Colors
-Edit CSS variables in `styles.css`:
+### Colores
+Editá las variables CSS en `styles.css`:
 ```css
 :root {
     --primary-color: #6366f1;
     --secondary-color: #06b6d4;
-    /* ... more variables */
+    /* ... más variables */
 }
 ```
 
-### Content
-- Update text in `index.html`
-- Modify service offerings, pricing, testimonials
-- Change contact information
+### Contenido
+- Actualizá el texto en `index.html`
+- Modificá los servicios ofrecidos, precios, testimonios
+- Cambiá la información de contacto
 
-### Functionality
-- Customize animations in `script.js`
-- Adjust scroll behavior
-- Modify form submission endpoint
+### Funcionalidad
+- Personalizá las animaciones en `script.js`
+- Ajustá el comportamiento de scroll
+- Modificá el endpoint de envío del formulario
 
-## Performance
+## Rendimiento
 
-- Optimized CSS with minimal specificity
-- Debounced scroll events
-- Lazy loading for animations
-- No external dependencies (except Google Fonts)
+- CSS optimizado con especificidad mínima
+- Eventos de scroll con debounce
+- Lazy loading para animaciones
+- Sin dependencias externas (excepto Google Fonts)
 
-## Accessibility
+## Accesibilidad
 
-- Semantic HTML structure
-- Keyboard navigation support
-- ARIA labels where needed
-- Focus management
-- Proper heading hierarchy
+- Estructura HTML semántica
+- Soporte de navegación por teclado
+- Labels ARIA donde sea necesario
+- Manejo de focus
+- Jerarquía apropiada de encabezados
 
-## Future Enhancements
+## Mejoras Futuras
 
-- [ ] Add blog section
-- [ ] Integrate actual contact form backend
-- [ ] Add case studies/portfolio
-- [ ] Implement dark mode toggle
-- [ ] Add multi-language support
-- [ ] Create admin dashboard
+- [ ] Agregar sección de blog
+- [ ] Integrar backend real para formulario de contacto
+- [ ] Agregar casos de estudio/portafolio
+- [ ] Implementar toggle de modo oscuro
+- [ ] Agregar soporte multi-idioma
+- [ ] Crear panel de administración
 
-## License
+## Licencia
 
-Copyright © 2024 AutomaticSolves. All rights reserved.
+Copyright © 2024 AutomaticSolves. Todos los derechos reservados.
 
 ---
 
-Built with ❤️ for business automation excellence
+Hecho con ❤️ para la excelencia en automatización empresarial
